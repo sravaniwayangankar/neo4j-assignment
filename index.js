@@ -17,9 +17,9 @@ const typeDefs = gql`
     }
 `;
 
-const AURA_ENDPOINT = 'neo4j+s://98627160.databases.neo4j.io';
+const AURA_ENDPOINT = 'neo4j+s://2a236cd7.databases.neo4j.io';
 const USERNAME = 'neo4j';
-const PASSWORD = '26241002sWG*';
+const PASSWORD = 'password';
 
 const driver = neo4j.driver(
     AURA_ENDPOINT,
@@ -34,7 +34,7 @@ neoSchema.getSchema().then((schema) => {
         schema,
     });
   
-    server.listen().then(({ url }) => {
+    server.listen(4000).then(({ url }) => {
         console.log(`Server ready at ${url}`);
     });
   })
