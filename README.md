@@ -1,11 +1,13 @@
 ### This assignment has a GraphQL API connected to a Neo4J database, and a Python client to perform two operations on the database
-
+<br>
 ### No setup is required to use the API and/or run the Python client
-
+<br>
 The GraphQL API is running on Google Compute Engine at <http://34.121.185.229:4000/>
+<br>
 Neo4j running in AuraDB Free at neo4j+s://2a236cd7.databases.neo4j.io
+<br>
 Python client (Jupyter notebook) running on the server at <http://34.121.185.229:8888/>
-
+<br>
 For the database-
 Database Browser URI: *https://2a236cd7.databases.neo4j.io/browser/*
 Username: *neo4j*
