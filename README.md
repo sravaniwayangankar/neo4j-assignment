@@ -61,7 +61,7 @@ query {
 }
 ```
 
-How to test the API:
+**How to test the API:**
 
 **1. Using Python Client:**
 
